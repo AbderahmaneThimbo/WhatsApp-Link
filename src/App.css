@@ -1,0 +1,39 @@
+:root {
+    --bg-color: #fef5e7;
+    --text-color: #000;
+}
+
+.dark-mode {
+    --bg-color: #000;
+    --text-color: #fff;
+}
+
+/* Appliquer le background personnalisé */
+body,
+.min-vh-100 {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+/* Form controls (pour que le contraste reste bon) */
+.form-control {
+    background-color: #000;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+.dark-mode .form-control {
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+/* Boutons */
+.btn-success {
+    background-color: #25d366;
+    border-color: #25d366;
+}
+
+footer {
+    opacity: 0.6;
+}
