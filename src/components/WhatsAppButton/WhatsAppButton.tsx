@@ -1,5 +1,7 @@
+// Bouton qui ouvre WhatsApp avec le lien généré. Désactivé si aucun numéro n'est saisi.
 import React from "react";
 
+// Props attendues : link (URL WhatsApp) et disabled (état du bouton)
 interface Props {
   link: string;
   disabled: boolean;

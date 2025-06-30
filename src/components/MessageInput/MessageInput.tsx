@@ -1,5 +1,7 @@
+// Composant pour la saisie d'un message personnalisé (optionnel)
 import React from "react";
 
+// Props attendues : value (texte actuel) et onChange (callback de modification)
 interface Props {
   value: string;
   onChange: (v: string) => void;
